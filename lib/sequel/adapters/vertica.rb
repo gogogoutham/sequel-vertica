@@ -55,7 +55,7 @@ module Sequel
         result.first[:OUTPUT]
       end
 
-      alias_method :execute_dui, :execute
+      alias_method :execute_dui, :execute_insert
 
       def supports_create_table_if_not_exists?
         true
